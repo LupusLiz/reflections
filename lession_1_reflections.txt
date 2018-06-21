@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Comparing two files made it easy to find differences between the two, and a difference was likely where a mistake was introduced.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can look at older versions to see what changes I have made.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: You won't have tons of files saved without any major
+    changes, all the saved commits will be complete and will
+    make sense to the compiler.
+	Cons: If you don't remember to save, or if you don't have a chance to save, you can lose all your work. You also have to make a judgment call about what is the right size for a commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Maybe because a coding project might contain multiple documents that all tie into each other, 
+	whereas Google Docs might be more suitible for independent documents.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use git log to see a list of all the commits that have been pushed to the repository. Each entry can also have a note that says why the new commit was made.
+    You can use git diff in the command line to compare two versions and check for differences. You can find versions to compare using git log.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It would make it easy to go back to a version that you know works for sure. 
+	Also, if something doesn't work, you could compare the new version with an older, working one
+	and that might help you see why something isn't working.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'd like to try using it for Arduino sketches for the LED wearables I'm thinking of making.
+
+
