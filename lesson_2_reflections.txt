@@ -4,3 +4,5 @@
 	The staging area is a temporary 'holding cell' for files you want to add to a commit. The working directory and repository are storage that is permanent unless purposely deleted.
 3. How can you use the staging area to make sure you have one commit per logical change?
 	You can compare files in the staging area with those in the working directory and most recent commit to keep track of changes you make.
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches would be helpful if you want to try making a version with an experimental feature, or if you want to make a version in another language, etc. It would help with organizing your history because all commits related to the experimental feature would be on the same branch, as would those with the alternate language version, etc.
