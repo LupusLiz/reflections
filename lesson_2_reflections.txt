@@ -10,3 +10,5 @@
 	By showing the parent of each commit and revealing which commits (if any) are unreachable.
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	All of the changes introduced in the new branch are now included in the master branch. The diagram shows that the commits from the other branch are still reachable, even if we delete that branch after merging (because deleting a branch deletes only its label, not the commits it contained).
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Pros: It is less time consuming for Git to perform merges automatically, also less chance for human error. Cons: Some of the merge conflicts that Git flags may seem obvious to the user, thus making merge conflict resolution feel tedious.
