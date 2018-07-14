@@ -30,4 +30,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    On one hand, making changes directly in master would have the benefit of making your work go more quickly, because you wouldn't have to be taking the steps of merging branches after changes are made before you can pull/push. On the other hand, it isn't the wisest choice to make all of your changes in master, especially if you are working on a team project. There would be a lot of commits to keep track of. Also, if some changes were made with a particular focus, such as adding a feature, and then you decided later that you didn't want that feature after all, it would be hard to weed out all of those changes if they were all made directly in master, instead of having a dedicated branch for that feature.
